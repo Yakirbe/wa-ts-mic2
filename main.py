@@ -189,8 +189,4 @@ if __name__ == "__main__":
             raise ValueError(f"Missing required environment variable: {var}")
     
     # Explicitly define host and port
-    app.run(
-        host='0.0.0.0',  # Allows external access
-        port=5000,
-        debug=True
-    )
+    app.run()
