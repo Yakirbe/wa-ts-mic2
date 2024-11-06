@@ -1,0 +1,9 @@
+Flask==2.3.2
+python-dotenv
+requests
+pydub
+openai-whisper
+twilio
+flask-cors
+gunicorn
+# Add any other dependencies your app uses 

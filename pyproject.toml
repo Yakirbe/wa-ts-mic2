@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "whatsapp-transcriber"
+version = "0.1.0"
+description = "WhatsApp voice message transcription bot"
+authors = ["Your Name <your.email@example.com>"]
+packages = [
+    { include = "whatsapp_transcriber" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.0"
+requests = "^2.31.0"
+twilio = "^8.12.0"
+pydub = "^0.25.1"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

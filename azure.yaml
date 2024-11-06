@@ -1,0 +1,6 @@
+name: whatsapp-transcriber
+services:
+  - name: whatsapp-transcriber
+    project: .
+    language: python
+    host: appservice 
