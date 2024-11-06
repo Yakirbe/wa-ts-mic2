@@ -1,6 +1,6 @@
-name: whatsapp-transcriber
+name: wa-ts-mic2
 services:
-  - name: whatsapp-transcriber
+  - name: wa-ts-mic2
     project: .
     language: python
     host: appservice 
